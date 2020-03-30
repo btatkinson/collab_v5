@@ -1,0 +1,18 @@
+.vanity-bar{
+    height:7px !important;
+    background: #2B484E;
+  }
+.vanity-bar::before{
+    content: "";
+}
+
+#main-nav{
+  padding: 20px;
+}
+
+.custom-logo{
+  max-height:75px;
+  max-width:320px;
+}
+
+

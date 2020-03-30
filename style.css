@@ -1,0 +1,23 @@
+/*
+Theme Name: Collab WP5
+Version: 1.0
+Description: Custom theme created for Cincinnati Collaborative Law group
+Author: Blake Atkinson
+*/
+
+/* $dgreen: #2B484E;
+$mgreen: #377375;
+$green: #3AAFA9;
+$lgrey: #DEF2F1;
+$white: #FEFFFF; */
+
+html{
+    width:100%;
+    height:100%;
+    background-color: #DEF2F1;
+    color: #2B484E;
+}
+
+body{
+    margin:0px;
+}
