@@ -14,6 +14,7 @@ Author: Blake Atkinson
     --green: #3AAFA9;
     --light-grey: #DEF2F1;
     --lg-transparent: rgba(222, 242, 241, 0.8);
+    --dg-transparent: rgba(43, 72, 78, 0.8);
 }
 
 /* $dgreen: #2B484E;
@@ -41,6 +42,8 @@ a{
 }
 a:hover{
     color:var(--green);
+    font-weight: bold;
+    /* text-shadow: 1px 1px var(--dark-green); */
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -53,4 +56,46 @@ p,a,li{
     font-size: 20px;
     line-height: 30px;
 }
+
+.btn{
+    border-radius: 4px;
+}
+
+.btn:focus,.btn:active{
+}
+
+.btn-primary{
+    background-color: var(--light-grey);
+    color: var(--dark-green);
+    border: 1px solid var(--dark-green);
+}
+
+.btn-primary:hover{
+    background-color: var(--dark-green);
+    color: var(--light-grey);
+    border: 1px solid var(--light-grey);
+}
+
+.btn-primary:focus,.btn-primary:active{
+    outline-color: var(--light-grey);
+    outline-width: 2px;
+}
+
+.btn-secondary{
+    background-color: var(--green);
+    color: var(--dark-green);
+    border: 1px solid var(--dark-green);
+}
+
+.btn-secondary:hover{
+    background-color: var(--dark-green);
+    color: var(--green);
+    border: 1px solid var(--green);
+}
+
+.btn-secondary:focus,.btn-secondary:active{
+    outline-color: var(--dark-green);
+    outline-width: 2px;
+}
+
 

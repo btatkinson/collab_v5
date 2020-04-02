@@ -1,4 +1,6 @@
 
+/* top splash image */
+
 .splash{
     height: 650px;
     width: 100%;
@@ -43,8 +45,117 @@
     align-items: center;
     justify-content: center;
   }
+  .sp-button:hover{
+    border-color: var(--light-grey);
+    color: var(--light-grey);
+    background-color: var(--dg-transparent);
+  }
 
   .sp-arrow{
       padding-left: 5px;
   }
+
+  /* middle input panel */
+
+  .middle-input-panel{
+    background-color: var(--dark-green);
+    min-height: 150px;
+    color: var(--light-grey);
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+
+  .mip-left{
+      max-width: 66%;
+  }
+
+  .slogan{
+    color: var(--light-grey);
+    transition: 0.5s padding;
+    text-align: center;
+    z-index: 1;
+    font-size: 52px;
+  }
+
+  .slogan-emphasis{
+      color:white;
+  }
+
+  .slogan-sub{
+    font-size: 38px;
+    line-height: 45px;
+    margin-bottom: 20px;
+  }
+
+  .form-row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .form-group{
+      float:left;
+      padding: 20px;
+      width: 100%;
+  }
+
+  .form-control{
+      display: flex;
+      font-size: 20px;
+      margin-bottom: 10px;
+      width: 100%;
+  }
+
+  input.form-control{
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    text-indent: 5px;
+  }
+
+  input.form-control:active,input.form-control:focus{
+    outline: none !important;
+    border:1px solid var(--light-grey);
+    box-shadow: 0 0 10px var(--light-grey);
+  }
+
+  .custom-select{
+    display: flex;
+    font-size: 20px;
+    padding: 5px !important;
+    color: grey;
+    text-indent: 5px;
+    max-height: calc(33px + 2.5px);
+    height: calc(33px + 2.5px);
+    margin-bottom: 10px;
+    border: none;
+    text-indent: 5px;
+    width: 100%;
+  }
+
+  .custom-select:active,.custom-select:focus{
+    outline: none !important;
+    border:1px solid var(--light-grey);
+    box-shadow: 0 0 10px var(--light-grey);
+    
+  }
+
+  .mip-btn-row{
+    /* padding: 20px; */
+  }
+
+  .mip-btn{
+    font-size: 24px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+
+
+
   
