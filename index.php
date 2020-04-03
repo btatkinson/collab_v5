@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="<?php bloginfo('charset'); ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php wp_head() ?>
-    <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lora|LibreFranklin:100,100&display=swap" rel="stylesheet">
-    <!-- Fontawesome -->
-    <script src="https://kit.fontawesome.com/523fd0d64e.js" crossorigin="anonymous"></script>
-    <title>Collaborative Law</title>
     <?php get_header(); ?>
 </head>
 <body>
@@ -29,64 +20,112 @@
     <!-- middle input panel -->
     <div class="middle-input-panel">
         <div class="mip-left">
-        <h1 class="slogan">
-            <?php //echo get_theme_mod('_themename_intro_text'); ?>
-            Ending your marriage doesn’t have to be destructive. <span style="font-family: 'Pacifico', cursive;" class="slogan-emphasis">Explore options. Create solutions.</span>
-        </h1>
-        <h3 class="slogan-sub">Find A Collaborative Professional Today:</h3>
-        <form class="fp-form">
-            <div class="form-row">
-                <div class="form-group form-width">
-                    <label for="firstName" class="form-control">First Name</label>
-                    <input
-                    type="text"
-                    class="form-control"
-                    id="fnameInput"
-                    placeholder="First Name"
-                    aria-label="First name text input"
-                    >
+            <h1 class="slogan">
+                <?php //echo get_theme_mod('_themename_intro_text'); ?>
+                Ending your marriage doesn’t have to be destructive. <span style="font-family: 'Pacifico', cursive;" class="slogan-emphasis">Explore options. Create solutions.</span>
+            </h1>
+            <h3 class="slogan-sub">Find A Collaborative Professional Today:</h3>
+            <form class="fp-form">
+                <div class="form-row">
+                    <div class="form-group form-width">
+                        <label for="firstName" class="form-control">First Name</label>
+                        <input
+                        type="text"
+                        class="form-control"
+                        id="fnameInput"
+                        placeholder="First Name"
+                        aria-label="First name text input"
+                        >
+                    </div>
+                    <div class="form-group form-width">
+                        <label for="lastName" class="form-control">Last Name</label>
+                        <input
+                        type="text"
+                        class="form-control"
+                        id="lnameInput"
+                        placeholder="Last Name"
+                        aria-label="Last name text input"
+                        >
+                    </div>
+                    <div class="form-group form-width">
+                        <label for="occSelect" class="form-control">Profession</label>
+                        <select id="occSelect" class="custom-select">
+                        <option selected>Type (Any)</option>
+                        <option value="Attorney">Attorney</option>
+                        <option value="Financial Specialist">Financial Specialist</option>
+                        <option value="Family Relations">Family Relations</option>
+                        </select>
+                    </div>
                 </div>
-                <div class="form-group form-width">
-                    <label for="lastName" class="form-control">Last Name</label>
-                    <input
-                    type="text"
-                    class="form-control"
-                    id="lnameInput"
-                    placeholder="Last Name"
-                    aria-label="Last name text input"
-                    >
-                </div>
-                <div class="form-group form-width">
-                    <label for="occSelect" class="form-control">Profession</label>
-                    <select id="occSelect" class="custom-select">
-                    <option selected>Type (Any)</option>
-                    <option value="Attorney">Attorney</option>
-                    <option value="Financial Specialist">Financial Specialist</option>
-                    <option value="Family Relations">Family Relations</option>
-                    </select>
-                </div>
+            </form>
+            <div class="mip-btn-row">
+                <button
+                class="btn btn-secondary mip-btn"
+                id="findProBrowse"
+                onclick="window.location.href=('<?php echo get_permalink(get_page_by_title('Find A Professional')) ?>')"
+                >
+                Browse <i class="fas fa-search"></i></button>
+                <button
+                class="btn btn-primary mip-btn"
+                id="findProSub"
+                onclick="window.location.href=('<?php echo get_permalink(get_page_by_title('Find A Professional')) ?>')"
+                type="submit" >
+                Search <i class="fas fa-arrow-right"></i></button>
             </div>
-        </form>
-        <div class="mip-btn-row">
-            <button
-            class="btn btn-secondary mip-btn"
-            id="findProBrowse"
-            onclick="window.location.href=('<?php echo get_permalink(get_page_by_title('Find A Professional')) ?>')"
-            >
-            Browse <i class="fas fa-search"></i></button>
-            <button
-            class="btn btn-primary mip-btn"
-            id="findProSub"
-            onclick="window.location.href=('<?php echo get_permalink(get_page_by_title('Find A Professional')) ?>')"
-            type="submit" >
-            Search <i class="fas fa-arrow-right"></i></button>
         </div>
-        </div>
-        <div class="col-lg-4 fp-portrait-col">
-        <div class="fp-box d-flex align-items-bottom" style="background-image: url(<?php echo get_theme_mod('_themename_banner_image'); ?>);">
-        </div>
+        <div class="mip-right">
+            <div class="mip-image" style="background-image: url(<?php echo get_theme_mod('banner_image'); ?>);">
+            </div>
         </div>
     </div>
+    <section class="fp-advantages">
+        <div class="row">
+            <div class="col-sm-12">
+                <p class="text-center fp-title">Your Collaborative Dissolution involves four fundamental principles: </p>
+                <hr class="fp-hr">
+            </div>
+        </div>
+        <div class="row">
+            <div class="fp-adv-col col-sm-1 text-center">
+                <div class="icon-bg">
+                <i class="fas fa-3x fp-fa fa-ban"></i>
+                </div>
+            </div>
+            <div class="fp-adv-col col-sm-5">
+                <p class="feature-title">No Court</p>
+                <p class="feature-text">Both spouses and their attorneys commit that they will not take the dispute to court.  This allows everyone to focus on problem solving and reaching agreements rather than litigation.</p>
+            </div>
+            <div class="fp-adv-col col-sm-1 text-center">
+                <div class="icon-bg">
+                <i class="fas fa-3x fp-fa fa-user"></i>
+                </div>
+            </div>
+            <div class="fp-adv-col col-sm-5">
+                <p class="feature-title">Client Centered</p>
+                <p class="feature-text">Each spouse’s personal, family, and financial goals and interests are highlighted and carefully considered as the spouses work toward a resolution on all issues.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="fp-adv-col col-sm-1 text-center">
+                <div class="icon-bg">
+                <i class="fas fa-3x fp-fa fa-briefcase"></i>
+                </div>
+            </div>
+            <div class="fp-adv-col col-sm-5">
+                <p class="feature-title">Inter-Disciplinary</p>
+                <p class="feature-text"> In addition to collaboratively trained attorneys who provide legal guidance, spouses are also able to turn to family relations specialists and financial neutrals to address the family-related and financial issues.</p>
+            </div>
+            <div class="fp-adv-col col-sm-1 text-center">
+                <div class="icon-bg">
+                <i class="fas fa-3x fp-fa fa-folder-open"></i>
+                </div>
+            </div>
+            <div class="fp-adv-col col-sm-5">
+                <p class="feature-title">Transparency</p>
+                <p class="feature-text">There is complete, open and transparent communication between attorneys, other professionals, and spouses.  The spouses commit to sharing all relevant information and documentation.</p>
+            </div>
+        </div>
+    </section>
 </body>
 <?php get_footer(); ?>
 </html>

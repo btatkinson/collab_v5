@@ -71,6 +71,13 @@
       max-width: 66%;
   }
 
+  .mip-right{
+    height: 100%;
+    width: 33%;
+    max-width: 33%;
+    padding: 40px;
+  }
+
   .slogan{
     color: var(--light-grey);
     transition: 0.5s padding;
@@ -143,19 +150,59 @@
     
   }
 
-  .mip-btn-row{
-    /* padding: 20px; */
-  }
-
   .mip-btn{
     font-size: 24px;
     padding: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
     margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
 
+  .mip-image{
+    min-height: 475px;
+    min-width: 300px;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    border-radius: 5px;
+    border: 3px solid var(--light-grey);
+  }
 
+.fp-advantages{
+  margin-bottom: 20px;
+}
+
+.fp-title{
+  margin-top: 50px;
+  font-size: 45px;
+  margin-bottom: 50px;
+}
+
+.fp-fa{
+  color: var(--light-grey);
+}
+
+.fp-adv-col{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.icon-bg{
+  display: inline-flex;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: var(--dark-green);
+}
+
+.feature-title{
+  margin-top: 30px;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
 
 
   

@@ -9,12 +9,18 @@ Author: Blake Atkinson
 @import url(//fonts.googleapis.com/css?family=Alegreya);
 
 :root {
+    --darker-green: rgb(25, 42, 46);
     --dark-green: #2B484E;
     --med-green: #377375;
     --green: #3AAFA9;
     --light-grey: #DEF2F1;
+    --dark-grey: rgba(140,140,140,1);
     --lg-transparent: rgba(222, 242, 241, 0.8);
     --dg-transparent: rgba(43, 72, 78, 0.8);
+
+    /* custom one use colors */
+    --lg-about-tp: rgba(222, 242, 241, 0.2);
+    --dg-about-tp:  rgba(43, 72, 78, 0.35);
 }
 
 /* $dgreen: #2B484E;
@@ -23,16 +29,26 @@ $green: #3AAFA9;
 $lgrey: #DEF2F1;
 $white: #FEFFFF; */
 
+/* change highlight colors */
+::selection {
+    background: var(--green); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+    background:var(--green); /* Gecko Browsers */
+}
+
 html{
     width:100%;
     height:100%;
     background-color: var(--light-grey);
     color: var(--dark-green);
     margin:0px !important;
+    overflow-x: hidden;
 }
 
 body{
     margin:0px;
+    overflow-x: hidden;
 }
 
 
@@ -57,11 +73,42 @@ p,a,li{
     line-height: 30px;
 }
 
-.btn{
-    border-radius: 4px;
+.row{
+    display: flex;
+    width: 100%;
+    padding: 20px;
 }
 
-.btn:focus,.btn:active{
+.text-center{
+    text-align: center;
+}
+
+.col-sm-12{
+    width: 100%;
+}
+
+.col-sm-1{
+    width: 8.33%;
+}
+
+.col-sm-2{
+    width: 16.66%;
+}
+
+.col-sm-4{
+    width: 33.33%;
+}
+
+.col-sm-5{
+    width: 41.66%;
+}
+
+.col-sm-8{
+    width: 66.66%;
+}
+
+.btn{
+    border-radius: 4px;
 }
 
 .btn-primary{
