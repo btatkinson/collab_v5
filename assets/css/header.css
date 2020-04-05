@@ -30,7 +30,7 @@
   float: right;
 }
 
-ul li {
+.nav-header-menu>div>ul>li {
   display: inline-block;
   padding-right: 50px;
 }
@@ -48,6 +48,16 @@ ul li {
   margin-right: auto;
   display: flex;
   flex-wrap: wrap;
+}
+
+.nav-main-menu>div>ul>li {
+  display: inline-block;
+  padding-right: 50px;
+}
+
+.footer-menu>div>ul>li {
+  display: inline-block;
+  padding-right: 50px;
 }
 
 
