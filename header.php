@@ -37,4 +37,23 @@
         </div>
 
     </nav>
-<?php }?>
+<?php } elseif($pagename == "members-area") { ?>
+<?php  } elseif($pagename == "event-calendar") { ?>
+<?php  } elseif($pagename == "downloads") { ?>
+<?php } else { ?>
+    <!-- header image -->
+    <div class="header-image" style="background-image: url(<?php echo get_theme_mod('home_image'); ?>);">
+    </div>
+    <nav id="main-nav">
+    <!-- page menu -->
+        <div class="nav-main-menu">
+        <?php
+        wp_nav_menu( array( 
+            'theme_location' => 'main-menu', 
+            'container_class' => 'custom-menu-class' ) ); 
+        ?>
+        </div>
+    </nav>
+    <div class="page-bar">
+    </div>
+<?php } ?>
