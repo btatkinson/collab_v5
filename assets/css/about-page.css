@@ -34,11 +34,13 @@
     padding: 10px;
 }
 
+.ab-image-bottom{
+    border-radius: 6px;
+}
+
 .ab-image-bottom:hover{
-    border: 1px solid;
-    border-radius: 3px;
     border-color: var(--light-grey);
-  
+
     background-color: var(--lg-about-tp);
     background-blend-mode: multiply;
   }

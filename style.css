@@ -111,6 +111,10 @@ p,a,li{
     width: 66.66%;
 }
 
+.col-sm-11{
+    width: 91.66%;
+}
+
 .col-sm-12{
     width: 100%;
 }

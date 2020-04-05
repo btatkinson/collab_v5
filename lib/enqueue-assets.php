@@ -3,10 +3,11 @@
 function enqueue_css() {
   
     wp_enqueue_style( 'about-page', get_template_directory_uri() . '/assets/css/about-page.css' );
+    wp_enqueue_style( 'faq', get_template_directory_uri() . '/assets/css/faq.css' );
+    wp_enqueue_style( 'footer', get_template_directory_uri() . '/assets/css/footer.css' );
     wp_enqueue_style( 'get-started', get_template_directory_uri() . '/assets/css/get-started.css' );
     wp_enqueue_style( 'header', get_template_directory_uri() . '/assets/css/header.css' );
     wp_enqueue_style( 'home', get_template_directory_uri() . '/assets/css/home.css' );
-    wp_enqueue_style( 'footer', get_template_directory_uri() . '/assets/css/footer.css' );
     
   
 }
