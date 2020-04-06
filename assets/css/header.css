@@ -60,6 +60,39 @@
   padding-right: 50px;
 }
 
+@media only screen and (max-device-width: 410px) and (max-device-height: 812px){
+  #main-nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  #main-nav>.logo{
+    width: 100% !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;  
+  }
+  .nav-header-menu{
+    width: 100%;
+  }
+  .custom-menu-class{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #menu-header-menu{
+    padding-left:0px;
+  }
+  #menu-header-menu>li{
+    padding:5px;
+  }
+}
+
 
 
 

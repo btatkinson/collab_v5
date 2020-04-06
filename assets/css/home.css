@@ -1,6 +1,12 @@
 
 /* top splash image */
 
+.home-container{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
 .splash{
     height: 650px;
     width: 100%;
@@ -132,7 +138,7 @@
   .custom-select{
     display: flex;
     font-size: 20px;
-    padding: 5px !important;
+    padding: 5px;
     color: grey;
     text-indent: 5px;
     max-height: calc(33px + 2.5px);
@@ -180,6 +186,7 @@
   margin-top: 50px;
   font-size: 45px;
   margin-bottom: 50px;
+  line-height: 45px;
 }
 
 .fp-fa{
@@ -202,6 +209,158 @@
   margin-top: 30px;
   font-size: 35px;
   margin-bottom: 30px;
+}
+
+/* mobile stuff */
+@media only screen and (max-device-width: 410px) and (max-device-height: 812px){
+
+  .splash{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .splash-panel{
+    position: absolute;
+    width: 60%;
+    padding: 10px;
+    top: 28%;
+    left: 17.5%;
+  }
+  .sp-button{
+    position: absolute;
+    font-size: 24px;
+    width: 60%;
+    padding: 10px;
+    margin-top: -20px;
+    top: 48%;
+    left: 17.5%;
+  }
+
+  .quote-text{
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  .sp-fade{
+    font-size: 24px;
+  }
+
+  .middle-input-panel{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mip-left{
+    width: 100%;
+    max-width: 100%;
+    padding:10px;
+  }
+
+  .mip-right{
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+  }
+
+  .mip-image{
+    min-height: 0px;
+    min-width: 0px;
+    height: 200px;
+    width: 75%;
+    margin: 15px;
+    border: 1px solid var(--light-grey);
+  }
+
+  .mip-left>*{
+    font-size: 22px;
+    line-height: 24px;;
+  }
+
+  .slogan-sub{
+    margin-bottom: 0px;
+  }
+
+  .form-group{
+    padding: 10px;
+  }
+
+  .form-group>*{
+    font-size: 16px;
+  }
+
+  .form-control{
+    margin:0px;
+    font-size: 14px;
+  }
+
+  .custom-select{
+    margin:0px;
+    padding: 0px;
+    height: 27px;
+  }
+  .custom-select>*{
+    font-size: 14px;
+  }
+
+  .mip-btn{
+    margin: 5px;
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .fp-advantages{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .fp-title{
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .icon-bg{
+    font-size: 10px;
+  }
+  
+  .fp-adv-col.col-sm-1{
+    width: 20%;
+    padding: 0px;
+  }
+  .fp-adv-col.col-sm-5{
+    width: 80%;
+    padding: 0px;
+  }
+
+  .feature-title{
+    margin-top: 12px;
+    margin-bottom:12px;
+    margin-left: 10px;
+    font-size: 22px;
+  }
+
+  .feature-text{
+    margin-top: 5px;
+    margin-bottom:5px;
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+
 }
 
 

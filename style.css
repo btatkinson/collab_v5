@@ -157,4 +157,11 @@ p,a,li{
     outline-width: 2px;
 }
 
+@media only screen and (max-device-width: 410px) and (max-device-height: 812px){
+    .row{
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 

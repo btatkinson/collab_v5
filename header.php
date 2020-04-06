@@ -1,7 +1,7 @@
 
 <!-- load scripts -->
 <meta charset="<?php bloginfo('charset'); ?>">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="initial-scale=1.0, width=device-width">
 <?php wp_head() ?>
 <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
 <!-- Google Fonts -->
