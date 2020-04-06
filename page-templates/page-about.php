@@ -14,13 +14,13 @@ get_header(); ?>
     </div>
     <div class="row ab-row">
       <div class="col-sm-4">
-        <div class="ab-image" style="height: 100%; background-image: url(<?php echo get_theme_mod('about_image_first'); ?>);
+        <div class="ab-image ab-img-1" style="height: 100%; background-image: url(<?php echo get_theme_mod('about_image_first'); ?>);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;">
         </div>
       </div>
-      <div class="col-sm-8">
+      <div class="col-sm-8 ab-text-1">
         <div class="about-block">
         <h5 class="eyebrow"></h5>
         <h2 class="ab-h2">What is the CACP?

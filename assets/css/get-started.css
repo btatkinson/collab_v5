@@ -85,3 +85,58 @@
 .my-3{
     margin-bottom: 10px;
 }
+
+@media only screen and (max-device-width: 410px) and (max-device-height: 812px){
+    .gs-jumbotron{
+        padding:5px;
+    }
+
+    .gs-h2{
+        margin: 10 0 10 0px;
+        font-size: 32px;
+    }
+
+    .gs-top-ul>li{
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .col-sm-4.gs-btn-container{
+        width: 25%;
+    }
+
+    .gs-btn-row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .gs-btn-container{
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .gs-btn-label{
+        display: none;
+    }
+
+    .gs-h3{
+        margin-top: 25px;
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .specialist-block{
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .specialist-block>p{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .specialist-block>ul>li{
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+
+

@@ -21,7 +21,7 @@ get_header(); ?>
         </div>
     </div>
     <!-- EDITS BUTTONS -->
-    <div class="row">
+    <div class="row gs-btn-row">
     <div class="col-sm-4 gs-btn-container">
       <button id="btn-attorney" class="gs-button gs-clicked">
         <i class="fas fa-gavel gs-btn-icon"></i>

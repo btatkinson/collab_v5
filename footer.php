@@ -1,3 +1,5 @@
+<!-- close page container -->
+</div>
 <section class="footer">
     <div class="ft-container">
         <div class="row">
@@ -26,3 +28,4 @@
         </div>
     </div>
 </section>
+
