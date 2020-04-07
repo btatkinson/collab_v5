@@ -1,0 +1,48 @@
+#findpro{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: var(--dark-green) !important;
+    padding: 25px !important;
+}
+
+#findpro > .findpro-cntr{
+    border-radius: 6px;
+    background-color: var(--light-grey);
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 15px !important;
+}
+
+.entry-title{
+    font-size: 32px;
+    text-align: center;
+}
+
+#findpro > div > main > article > header > h1{
+    font-size: 32px;
+    text-align: center;
+}
+
+#SFylpfnd{
+    background-color: var(--light-grey) !important;
+}
+
+#SFylpfnd > div.SFfndtag > button:nth-child(2){
+    background-color: var(--dark-green) !important;
+    color: var(--light-grey) !important;
+}
+#SFylpqry{
+    background-color: var(--dark-green) !important;
+}
+#SFylpclr{
+    background-color: var(--dark-green) !important;
+    color: var(--light-grey) !important;
+}
+
+#primary{
+    padding: 25px;
+}

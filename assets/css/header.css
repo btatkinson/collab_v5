@@ -5,6 +5,8 @@
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .covid-h3{

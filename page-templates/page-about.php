@@ -5,7 +5,7 @@ Template Name: About
 */
 
 get_header(); ?>
-<div class="ab-bkgrd">
+<div class="ab-bkgrd xpad">
   <div class="ab-container">
     <div class="row ab-row">
       <div class="ab-title">

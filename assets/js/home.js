@@ -77,7 +77,7 @@ jQuery(document).ready(function($) {
         };
       });
   
-      document.querySelector('form.fapForm').addEventListener('submit', function (e) {
+      document.querySelector('form.fp-form').addEventListener('submit', function (e) {
   
           //prevent the normal submission of the form
           e.preventDefault();
