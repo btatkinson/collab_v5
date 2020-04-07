@@ -1,10 +1,25 @@
 .vanity-bar{
+  background: #2B484E;
+  color: white;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.covid-h3{
+  width: 100%;
+  text-align: center;
+  margin: 0px;
+}
+
+/* .vanity-bar{
     height:7px !important;
     background: #2B484E;
   }
 .vanity-bar::before{
     content: "";
-}
+} */
 
 #main-nav{
   padding: 15px;

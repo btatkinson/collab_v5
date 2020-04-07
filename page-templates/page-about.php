@@ -13,14 +13,14 @@ get_header(); ?>
       </div>
     </div>
     <div class="row ab-row">
-      <div class="col-sm-4">
+      <div class="col-sm-3">
         <div class="ab-image ab-img-1" style="height: 100%; background-image: url(<?php echo get_theme_mod('about_image_first'); ?>);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;">
         </div>
       </div>
-      <div class="col-sm-8 ab-text-1">
+      <div class="col-sm-9 ab-text-1">
         <div class="about-block">
         <h5 class="eyebrow"></h5>
         <h2 class="ab-h2">What is the CACP?
@@ -35,7 +35,7 @@ get_header(); ?>
       </div>
     </div>
     <div class="row ab-row">
-      <div class="col-sm-7 ab-col">
+      <div class="col-sm-9 ab-col">
         <div class="about-block">
           <h5 class="eyebrow"></h5>
           <h2 class="ab-h2">What will my Collaborative Process look like?</h2>
@@ -43,7 +43,7 @@ get_header(); ?>
             <b>Contact a Member of the CACP.</b>  Both spouses in the Collaborative Process need to engage an attorney. A CACP member can learn more about your situation and answer your specific questions.</p>
           <p>
 
-            <b>Signing the Participation Agreement</b> formally begins the Collaborative Process.  <a style="font-size:18px; text-decoration:underline;" href="<?php echo get_permalink(get_page_by_title('Resources')) ?>">You can find a copy of the Collaborative Participation Agreement here.</a>  This is a legal document outlining the agreed-upon commitments all parties will follow.
+            <b>Signing the Participation Agreement</b> formally begins the Collaborative Process.  <a class="resources-link" href="<?php echo get_permalink(get_page_by_title('Resources')) ?>">You can find a copy of the Collaborative Participation Agreement here.</a>  This is a legal document outlining the agreed-upon commitments all parties will follow.
             A CACP member can answer any questions you may have about the content of the Participation Agreement.</p>
           <p>
 
@@ -58,7 +58,7 @@ get_header(); ?>
             <b>Agreements</b> are then formalized into legal documents to be submitted to your local court.  Since you took an active role in shaping your agreement, there are no surprises and no questions left unanswered.</p>
         </div>
       </div>
-      <div class="col-sm-5 ab-col d-xs-none d-sm-none d-sm-block">
+      <div class="col-sm-3 ab-col d-xs-none d-sm-none d-sm-block">
         <div class="ab-image" style="height: 50%; background-image: url(<?php echo get_theme_mod('about_image_second'); ?>);
           background-position: center;
           background-repeat: no-repeat;

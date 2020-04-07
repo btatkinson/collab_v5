@@ -24,6 +24,12 @@
     font-size: 38px;
 }
 
+    /* link to collab agreement */
+    div.col-sm-7.ab-col > div > p:nth-child(4) > a{
+        font-size: 20px;
+        text-decoration: underline;
+    }
+
 .ab-image{
     margin:10px;
     border: 1px solid var(--dark-green);
@@ -78,7 +84,7 @@
       top: 0;
   }
 
-@media only screen and (max-device-width: 410px) and (max-device-height: 812px){
+@media only screen and (max-device-width: 430px) and (max-device-height: 812px){
 
     .ab-bkgrd{
         padding:10px;
@@ -89,20 +95,21 @@
     }
 
     .ab-display{
-        font-size: 32px;
-        margin: 5 0 5 0px;
+        font-size: 28px;
+        margin: 15 0 5 0px;
+        line-height: 35px;
     }
 
     .ab-image{
         display: none;
     }
-    .col-sm-8.ab-text-1{
+    .col-sm-9.ab-text-1{
         width: 100%;
     }
-    .col-sm-7.ab-col{
+    .col-sm-9.ab-col{
         width: 100%;
     }
-    .col-sm-5.ab-col{
+    .col-sm-3.ab-col{
         display: none;
     }
     .about-block{
@@ -110,19 +117,25 @@
     }
 
     .about-block>p{
-        font-size: 16px;
+        font-size: 12px;
         line-height: 24px;
     }
 
     .ab-h2{
         margin-top: 5px;
         margin-bottom: 5px;
-        font-size: 28px;
-        line-height: 30px;
+        font-size: 24px;
+        line-height:28px;
+    }
+    /* link to collab agreement */
+    .resources-link{
+        font-size: 12px;
+        line-height:20px;
+        text-decoration: underline;
     }
 
     .ab-btm-txt{
-        font-size: 18px;
+        font-size: 16px;
         top: 20%;
         right: 15%;
         padding: 5px;

@@ -13,6 +13,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 .splash-panel{
@@ -21,7 +22,7 @@
     color: var(--dark-green);
     position: absolute;
     left: 8rem;
-    top: 12rem;
+    top: 6rem;
     padding: 32px;
     width: 33rem;
     border-radius: 4px;
@@ -41,7 +42,7 @@
     position: absolute;
     width: 33rem;
     left: 8rem;
-    top: 32rem;
+    top: 26rem;
     padding: 32px;
     font-size: 35px;
     background-color: var(--lg-transparent);
@@ -212,7 +213,7 @@
 }
 
 /* mobile stuff */
-@media only screen and (max-device-width: 410px) and (max-device-height: 812px){
+@media only screen and (max-device-width: 430px) and (max-device-height: 812px){
 
   .splash{
     height: 225px;
@@ -279,17 +280,20 @@
     min-height: 0px;
     min-width: 0px;
     height: 200px;
-    width: 75%;
+    width: 100%;
     margin: 15px;
+    margin-right:0px;
+    margin-left:0px;
     border: 1px solid var(--light-grey);
   }
 
   .mip-left>*{
-    font-size: 22px;
+    font-size: 20px;
     line-height: 24px;;
   }
 
   .slogan-sub{
+    font-size: 16px;
     margin-bottom: 0px;
   }
 

@@ -1,0 +1,56 @@
+body #SFctr button, body #SFctr a.SFbtn{color:var(--dark-green);background:var(--light-grey);}
+body #SFctr button:hover, body #SFctr a.SFbtn:hover {color:#fff;background-color:var(--dark-green);text-decoration:none}
+
+body #SFctr nav a.SFsel, body #SFctr nav a.SFsel:hover, body #SFctr nav li.SFsel a, body #SFctr nav li.SFsel a:hover{background-color:var(--dark-green);color:$white}
+body #SFctr nav>a{background-color:var(--dark-green);color:var(--light-grey)}
+
+body #SFctr a,body #SFctr .SFlnk{color:var(--dark-green);text-decoration:none}
+body #SFctr a:hover,body #SFctr .SFlnk:hover{color:var(--dark-green);text-decoration:underline}
+
+#SFctr h1, #SFprn h1 {
+    color: var(--dark-green);
+    font-weight: 200;
+    line-height: normal;
+    padding: 0;
+    margin: 0 0 20px;
+    clear: none;
+    float: none;
+}
+
+#SFctr h2, #SFprn h2 {
+    color: var(--dark-green);
+    font-weight: 300;
+    line-height: normal;
+    padding: 0;
+    margin: 0 0 16px;
+    clear: none;
+    float: none;
+}
+
+#SFctr h3, #SFctr h4, #SFprn h3, #SFprn h4 {
+    color: var(--dark-green);
+    line-height: normal;
+    padding: 0;
+    margin: 0 0 12px;
+    clear: none;
+    float: none;
+}
+
+#SFctr .SFcrd:hover {
+    border: 1px solid var(--dark-green);
+    color: #555;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+#SFctr .SFcrd .SFcrdnam {
+    color: var(--dark-green);
+    padding: 0;
+    margin: 0 0 5px;
+    font-size: 22px;
+    font-weight: 200;
+}
+
+#SFctr .SFchk[set]>div:first-child {
+    background-color: var(--dark-green);
+}

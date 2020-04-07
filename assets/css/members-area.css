@@ -1,0 +1,84 @@
+.ma-container{
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#members > main{
+    width: 100%;
+}
+  
+  .row.ma-head-row{
+    width: auto !important;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ma-head-row>.col-sm-12>.logo{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .ma-h1{
+    color:var(--dark-green);
+    text-align: center;
+  }
+  
+  #members > main > header > div > article > div > p{
+    color:var(--lgh-med-green);
+  }
+  
+  .ma-row{
+    padding-top:20px;
+    padding-bottom:20px;
+  }
+  
+  .ma-card{
+    margin: 25px;
+    padding:25px;
+    background-image: linear-gradient(var(--lgh-med-green), var(--med-green));
+    /* background-color: var(--med-green); */
+    border:none;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .ma-card:hover{
+    bottom:2px;
+    right:2px;
+    box-shadow: 2px 2px var(--darker-green);
+    border:none;
+  }
+  .ma-card>a{
+    color:white;
+    text-shadow: 1px 1px var(--darker-green);
+  }
+
+  .ma-crd-cnt{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .card-title{
+      font-size: 28px;
+      margin-top:20px;
+      margin-bottom: 20px;
+  }
+
+.card-title:hover{
+    color:white;
+}
+
+a.btn-fix:hover{
+    color: white;
+}

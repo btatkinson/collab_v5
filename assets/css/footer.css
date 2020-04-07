@@ -63,7 +63,7 @@
     color: var(--green);
 }
 
-@media only screen and (max-device-width: 410px) and (max-device-height: 812px){
+@media only screen and (max-device-width: 430px) and (max-device-height: 812px){
     .col-sm-8.ft-links{
         width:100%;
         border-right: none;
@@ -71,6 +71,10 @@
 
     .col-sm-4.ft-social{
         width:100%;
+    }
+
+    .ft-container>.row{
+        padding-bottom:0px;
     }
 }
 

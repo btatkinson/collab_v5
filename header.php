@@ -13,7 +13,8 @@
 <!-- front page nav bar -->
 <?php if(is_front_page()) { ?>
     <div class="vanity-bar">
-
+        <h3 class="covid-h3">COVID-19 UPDATE</h3>
+        <p class="covid-msg">Courts and offices may be closed, but the CACP and its members remain ready and able to support and serve our clients and community. The membership roster includes contact information for our collaborative professionals,  and the collaborative process continues to be an ideal alternative, especially while access to the courts is severely restricted.</p>
     </div>
     <nav id="main-nav">
     <!-- left aligned logo -->
@@ -48,11 +49,11 @@
         <nav id="main-nav">
         <!-- page menu -->
             <div class="nav-main-menu">
-            <?php
-            wp_nav_menu( array( 
-                'theme_location' => 'main-menu', 
-                'container_class' => 'custom-menu-class' ) ); 
-            ?>
+                <?php
+                wp_nav_menu( array( 
+                    'theme_location' => 'page-menu', 
+                    'container_class' => 'custom-menu-class' ) ); 
+                ?>
             </div>
         </nav>
         <div class="page-bar">

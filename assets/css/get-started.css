@@ -86,7 +86,7 @@
     margin-bottom: 10px;
 }
 
-@media only screen and (max-device-width: 410px) and (max-device-height: 812px){
+@media only screen and (max-device-width: 430px) and (max-device-height: 812px){
     .gs-jumbotron{
         padding:5px;
     }
