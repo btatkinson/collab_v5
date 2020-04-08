@@ -82,3 +82,30 @@
 a.btn-fix:hover{
     color: white;
 }
+
+@media only screen and (max-device-width: 430px) and (max-device-height: 812px){
+
+  .ma-row{
+    padding: 0px !important;
+  }
+  .ma-row>.col-sm-4{
+    /* width:50%; */
+  }
+  .ma-row>.col-sm-4>.ma-card{
+    margin: 5px;
+    padding: 5px;
+    height: 112px;
+    max-height: 112px;
+  }
+
+  .ma-crd-cnt>i{
+    font-size: 24px;
+  }
+
+  .card-title{
+    margin: 8 0 5 0px;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+  }
+}
