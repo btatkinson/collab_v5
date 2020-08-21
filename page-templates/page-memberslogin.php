@@ -25,8 +25,9 @@ get_header(); ?>
     <div class="col-sm-12 ml-col">
       <h3 class="p-3 ml-headline">Interested in Becoming a Member of the CACP? </h3>
       <hr>
-      <p class="p-3 ml-text">To discuss the requirements and benefits of membership with the CACP, please contact our Membership Chairs, Jessica Beauchamp, JD or Bernadette Johns, Ed. D.</p>
-      <p class="p-3 ml-text">CACP is offering the two-day Introductory Collaborative Training in Cincinnati for the first time since 2014 with our impressive local team of trainers.  The training will be September 12 and 13, 2019 at the Courtyard Marriott in Rookwood.  This training meets the IACP requirements for introductory training.  Please contact <a href="crwaide@strausstroy.com">Carrie R. Waide</a> for more information.
+      <p class="p-3 ml-text">To discuss the requirements and benefits of membership with the CACP, please contact our Membership Chairs, <a href='https://collaborativelaw.com/find-a-professional/#!biz/id/5cc88cfeafd6913a13e81b0e'><b>Jessica Beauchamp, JD</b></a> or <a href='https://collaborativelaw.com/find-a-professional/#!biz/id/5cc9a287f033bfba2ae73e1b'><b>Dr. Bernadette Johns</b></a>.</p>
+      <!-- https://collaborativelaw.com/find-a-professional/#!biz/id/5cc88cfeafd6913a13e81b0e -->
+      <!-- https://collaborativelaw.com/find-a-professional/#!biz/id/5cc9a287f033bfba2ae73e1b -->
     </div>
   </div>
 </div>

@@ -179,5 +179,42 @@ p,a,li{
         flex-wrap: wrap;
     }
 
+    #menu-page-menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #menu-page-menu>li{
+        list-style: none;
+        width:100%;
+        text-align: center;
+    }
+
+    #menu-footer-menu{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #menu-footer-menu>li{
+        list-style: none;
+        width:100%;
+        text-align: center;
+    }
+    .ft-container>.row{
+        padding: 0px;
+    }
+
+    .logo{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+
+
 }
 

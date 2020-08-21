@@ -144,5 +144,10 @@
         padding: 5px;
     }
 
+    .ab-bkgrd.xpad{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
 
 }

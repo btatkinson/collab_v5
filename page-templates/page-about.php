@@ -20,7 +20,7 @@ get_header(); ?>
         background-size: cover;">
         </div>
       </div>
-      <div class="col-sm-9 ab-text-1">
+      <div class="col-sm-9 ab-col">
         <div class="about-block">
         <h5 class="eyebrow"></h5>
         <h2 class="ab-h2">What is the CACP?

@@ -6,6 +6,13 @@
     justify-content: center;
 }
 
+/* ma-login */
+
+.ml-col{
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
 #members > main{
     width: 100%;
 }

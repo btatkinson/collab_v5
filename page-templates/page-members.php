@@ -79,11 +79,11 @@ get_header(); ?>
         </div>
         <div class="col-sm-4">
           <div class="card ma-card">
-            <a href="http://collaborativelaw.com/members-area/downloads/" class="btn btn-fix ">
+            <a href="http://collaborativelaw.com/members-area/document-bank/" class="btn btn-fix ">
               <div class="ma-crd-cnt">
                 <i class="fas fa-3x fp-fa fa-download"></i>
               </div>
-              <h4 class="card-title">Download Files</h4>
+              <h4 class="card-title">Document Bank</h4>
             </a>
           </div>
         </div>
